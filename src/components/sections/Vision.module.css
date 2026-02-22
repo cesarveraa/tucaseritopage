@@ -1,0 +1,38 @@
+.vision {
+    padding: 8rem 0;
+    background-color: var(--bg-light);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.quote {
+    font-size: 2.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-weight: 500;
+    color: var(--primary);
+    letter-spacing: -0.01em;
+}
+
+.divider {
+    width: 60px;
+    height: 4px;
+    background-color: var(--secondary);
+    margin: 3rem auto;
+    border-radius: 2px;
+}
+
+.founded {
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+    .quote {
+        font-size: 1.75rem;
+    }
+}

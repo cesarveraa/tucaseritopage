@@ -1,0 +1,4 @@
+/node_modules
+/.next  
+out.txt
+buld_errors.log
